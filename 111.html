@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+	<p id="demo"></p>
+	<p id="demo2"></p>
+	<p id="demo3"></p>
+
+	<script type="text/javascript">
+		var text;
+		var ch;
+		text=window.prompt("input data");
+		ch=window.prompt("input a char to search");
+		let result=text.indexOf(ch);
+		let result2=text.lastIndexOf(ch);
+		let result3=text.indexOf(ch,3);
+
+		document.getElementById("demo").innerHTML = result;
+		document.getElementById("demo2").innerHTML = result2;
+		document.getElementById("demo3").innerHTML = result3;
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
